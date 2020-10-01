@@ -29,3 +29,17 @@ def binary_search(arr, target):
             else:
                 first = mid + 1
     return -1 # not found
+
+# Need to ask about this, was making my code not compile
+# first = 0
+#     last = len(arr) - 1
+#     mid = 0
+#     while first <= last:
+#         mid = (first + last) // 2
+#         if arr[mid] < target:
+#             last = mid + 1
+#         elif arr[mid] > target:
+#             last = mid - 1
+#         else:
+#             return mid
+#     return -1
